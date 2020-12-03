@@ -1,0 +1,12 @@
+{
+  "name": "reasonml-quick-start-guide-code",
+  "version": "1.0.0",
+  "description": "Chapter 1 does not have code files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alain Armand",
+  "license": "ISC"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "polymorphic-variants",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [],
+  "author": "Alain Armand",
+  "license": "ISC",
+  "devDependencies": {
+    "bs-platform": "8.3.3"
+  }
+}

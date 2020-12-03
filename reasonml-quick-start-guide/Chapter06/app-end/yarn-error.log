@@ -1,0 +1,61 @@
+Arguments: 
+  /Users/prisc_000/.fnm/node-versions/v13.3.0/installation/bin/node /var/folders/dz/xzttny_14gs2lgxcvl5lm5680000gn/T/fnm-shell-7233868/pnpm-global/3/node_modules/yarn/bin/yarn.js add bs-css-emotion
+
+PATH: 
+  /Users/prisc_000/.opam/ocaml-base-compiler.4.08.1/bin:/Users/prisc_000/.asdf/installs/opam/2.0.6/bin:/Users/prisc_000/.rvm/gems/ruby-2.6.2/bin:/Users/prisc_000/.rvm/gems/ruby-2.6.2@global/bin:/Users/prisc_000/.rvm/rubies/ruby-2.6.2/bin:/Users/prisc_000/.yarn/bin:/Users/prisc_000/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/Users/prisc_000/google-cloud-sdk/bin:/var/folders/dz/xzttny_14gs2lgxcvl5lm5680000gn/T/fnm-shell-7233868/bin:/Users/prisc_000/.fnm:/var/folders/dz/xzttny_14gs2lgxcvl5lm5680000gn/T/fnm-shell-7440081/bin:/Users/prisc_000/.fnm:/var/folders/dz/xzttny_14gs2lgxcvl5lm5680000gn/T/fnm-shell-7793096/bin:/Users/prisc_000/.fnm:/Users/prisc_000/.asdf/shims:/Users/prisc_000/.asdf/bin:/usr/local/smlnj/bin:/Users/prisc_000/bin:/usr/local/bin:/usr/local/opt/python@3.8/bin:/Users/prisc_000/.yarn/bin:/Users/prisc_000/.config/yarn/global/node_modules/.bin:/usr/local/opt/nss/bin:/var/folders/dz/xzttny_14gs2lgxcvl5lm5680000gn/T/fnm-shell-5404830/bin:/Users/prisc_000/.fnm:/Users/prisc_000/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/prisc_000/kotlin-native-macos-0.9.3/bin:/usr/local/go/bin:/Library/Frameworks/EdgeDB.framework/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/prisc_000/.rvm/gems/ruby-2.6.2/bin:/Users/prisc_000/.rvm/gems/ruby-2.6.2@global/bin:/Users/prisc_000/.rvm/rubies/ruby-2.6.2/bin:/Users/prisc_000/.yarn/bin:/Users/prisc_000/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/Users/prisc_000/google-cloud-sdk/bin:/var/folders/dz/xzttny_14gs2lgxcvl5lm5680000gn/T/fnm-shell-7487438/bin:/Users/prisc_000/.fnm:/var/folders/dz/xzttny_14gs2lgxcvl5lm5680000gn/T/fnm-shell-9800404/bin:/var/folders/dz/xzttny_14gs2lgxcvl5lm5680000gn/T/fnm-shell-1443223/bin:/Users/prisc_000/.opam/ocaml-base-compiler.4.08.1/bin:/usr/local/smlnj/bin:/Users/prisc_000/bin:/usr/local/opt/python@3.8/bin:/usr/local/opt/nss/bin:/var/folders/dz/xzttny_14gs2lgxcvl5lm5680000gn/T/fnm-shell-5530603/bin:/Users/prisc_000/.cargo/bin:/Users/prisc_000/fnm:/Users/prisc_000/Library/Android/sdk/emulator:/Users/prisc_000/Library/Android/sdk/tools:/Users/prisc_000/Library/Android/sdk/tools/bin:/Users/prisc_000/Library/Android/sdk/platform-tools:/Users/prisc_000/.fzf/bin:/Users/prisc_000/.rvm/bin:/Users/prisc_000/fnm:/Users/prisc_000/bin:/usr/local/bin:/usr/local/opt/python@3.8/bin:/Users/prisc_000/.yarn/bin:/Users/prisc_000/.config/yarn/global/node_modules/.bin:/usr/local/opt/nss/bin:/var/folders/dz/xzttny_14gs2lgxcvl5lm5680000gn/T/fnm-shell-5404830/bin:/Users/prisc_000/.fnm:/Users/prisc_000/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/prisc_000/kotlin-native-macos-0.9.3/bin:/usr/local/go/bin:/Library/Frameworks/EdgeDB.framework/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/prisc_000/.rvm/gems/ruby-2.6.2/bin:/Users/prisc_000/.rvm/gems/ruby-2.6.2@global/bin:/Users/prisc_000/.rvm/rubies/ruby-2.6.2/bin:/Users/prisc_000/.yarn/bin:/Users/prisc_000/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/Users/prisc_000/google-cloud-sdk/bin:/var/folders/dz/xzttny_14gs2lgxcvl5lm5680000gn/T/fnm-shell-7487438/bin:/Users/prisc_000/.fnm:/var/folders/dz/xzttny_14gs2lgxcvl5lm5680000gn/T/fnm-shell-9800404/bin:/var/folders/dz/xzttny_14gs2lgxcvl5lm5680000gn/T/fnm-shell-1443223/bin:/Users/prisc_000/.opam/ocaml-base-compiler.4.08.1/bin:/usr/local/smlnj/bin:/Users/prisc_000/bin:/usr/local/opt/python@3.8/bin:/usr/local/opt/nss/bin:/var/folders/dz/xzttny_14gs2lgxcvl5lm5680000gn/T/fnm-shell-5530603/bin:/Users/prisc_000/.cargo/bin:/Users/prisc_000/fnm:/Users/prisc_000/Library/Android/sdk/emulator:/Users/prisc_000/Library/Android/sdk/tools:/Users/prisc_000/Library/Android/sdk/tools/bin:/Users/prisc_000/Library/Android/sdk/platform-tools:/Users/prisc_000/.fzf/bin:/Users/prisc_000/.rvm/bin:/Users/prisc_000/Library/Android/sdk/emulator:/Users/prisc_000/Library/Android/sdk/tools:/Users/prisc_000/Library/Android/sdk/tools/bin:/Users/prisc_000/Library/Android/sdk/platform-tools:/Users/prisc_000/.rvm/bin:/Users/prisc_000/.rvm/bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  13.3.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/prisc_000/Library/Caches/Yarn/v6/npm-loader-utils-0.2.17-f86e6374d43205a6e6c60e9196f17c0299bfb348-integrity/node_modules/loader-utils/LICENSE' -> '/Users/prisc_000/working/GitHub/reasonml-quick-start-guide-code/Chapter06/app-end/node_modules/html-webpack-plugin/node_modules/loader-utils/LICENSE'
+
+npm manifest: 
+  {
+    "name": "reasonml-quick-start-guide",
+    "version": "0.1.0",
+    "scripts": {
+      "start": "npm-run-all --parallel start:*",
+      "start:bsb": "bsb -clean-world -make-world -w",
+      "start:webpack": "webpack-dev-server --port 3000",
+      "build": "npm-run-all build:*",
+      "build:bsb": "bsb -clean-world -make-world",
+      "build:webpack": "NODE_ENV=production webpack",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Raphael Rafatpanah",
+    "dependencies": {
+      "react": "latest",
+      "react-dom": "latest",
+      "reason-react": "latest",
+      "react-transition-group": "latest",
+      "styled-components": "latest",
+      "bs-css": "latest"
+    },
+    "devDependencies": {
+      "bs-platform": "latest",
+      "css-loader": "latest",
+      "node-sass": "latest",
+      "sass-loader": "latest",
+      "style-loader": "latest",
+      "url-loader": "latest",
+      "html-webpack-plugin": "latest",
+      "clean-webpack-plugin": "latest",
+      "webpack-dev-server": "latest",
+      "npm-run-all": "latest",
+      "webpack": "latest",
+      "webpack-cli": "latest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

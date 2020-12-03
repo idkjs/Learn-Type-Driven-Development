@@ -1,8 +1,8 @@
 {
-	"name": "ch10final",
+	"name": "reasonml-demo-functors",
 	"version": "0.1.0",
 	"scripts": {
-				"clean": "bsb -clean-world",
+    		"clean": "bsb -clean-world",
 		"build": "bsb -make-world",
 		"watch": "BS_WATCH_CLEAR=true bsb -make-world -w",
 		"re:formatall": "find src __tests__ -name '*.re' | xargs npx bsrefmt --in-place",
@@ -15,7 +15,9 @@
 		"*.{re,rei}": "bsrefmt --in-place",
 		"*.{js,json}": "prettier --write"
 	},
-	"keywords": [ "BuckleScript" ],
+	"keywords": [
+		"BuckleScript"
+	],
 	"author": "",
 	"license": "MIT",
 	"devDependencies": {
@@ -23,5 +25,7 @@
 		"bs-platform": "^8.3.3",
 		"jest": "^26.6.3"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"@glennsl/bs-json": "^5.0.2"
+	}
 }

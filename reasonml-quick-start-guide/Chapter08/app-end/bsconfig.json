@@ -1,0 +1,29 @@
+{
+  "name": "reasonml-quick-start-guide",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "__tests__",
+      "type": "dev"
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "es6"
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": ["reason-react", "bs-css", "@glennsl/bs-json"],
+  "bs-dev-dependencies": ["@glennsl/bs-jest"],
+  "refmt": 3,
+  "warnings": {
+    "error": "+5+8"
+  }
+}

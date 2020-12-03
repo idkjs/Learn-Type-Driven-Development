@@ -1,8 +1,7 @@
 {
-	"name": "ch10final",
-	"version": "0.1.0",
+  "name": "reasonml-demo-modules",
+  "version": "0.1.0",
 	"scripts": {
-				"clean": "bsb -clean-world",
 		"build": "bsb -make-world",
 		"watch": "BS_WATCH_CLEAR=true bsb -make-world -w",
 		"re:formatall": "find src __tests__ -name '*.re' | xargs npx bsrefmt --in-place",

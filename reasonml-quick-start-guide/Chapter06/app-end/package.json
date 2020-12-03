@@ -1,0 +1,38 @@
+{
+  "name": "reasonml-quick-start-guide",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "npm-run-all --parallel start:*",
+    "start:bsb": "bsb -clean-world -make-world -w",
+    "start:webpack": "webpack-dev-server --port 3000",
+    "build": "npm-run-all build:*",
+    "build:bsb": "bsb -clean-world -make-world",
+    "build:webpack": "NODE_ENV=production webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raphael Rafatpanah",
+  "dependencies": {
+    "@ahrefs/bs-emotion": "1.0.1",
+    "@davesnx/styled-ppx": "0.4.0",
+    "bs-css": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-transition-group": "latest",
+    "reason-react": "latest",
+    "styled-components": "latest"
+  },
+  "devDependencies": {
+    "bs-platform": "latest",
+    "clean-webpack-plugin": "latest",
+    "css-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "node-sass": "latest",
+    "npm-run-all": "latest",
+    "sass-loader": "latest",
+    "style-loader": "latest",
+    "url-loader": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  }
+}
