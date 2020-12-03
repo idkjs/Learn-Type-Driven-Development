@@ -1,0 +1,26 @@
+{
+	"name": "ch10final",
+	"version": "0.1.0",
+	"scripts": {
+		"build": "bsb -make-world",
+		"watch": "BS_WATCH_CLEAR=true bsb -make-world -w",
+		"re:formatall": "find src __tests__ -name '*.re' | xargs npx bsrefmt --in-place",
+		"re:formatchanged": "git diff --name-only --diff-filter=d HEAD -- '*.re' | xargs -I{} realpath --relative-to=. $(git rev-parse --show-toplevel)/'{}' | while read f; do npx bsrefmt --in-place \"$f\"; done",
+		"prepare": "mkdir -p .git/hooks && cp .pre-commit-hook .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit",
+		"test": "jest __tests__",
+		"test:watch": "jest __tests__ --watch"
+	},
+	"lint-staged": {
+		"*.{re,rei}": "bsrefmt --in-place",
+		"*.{js,json}": "prettier --write"
+	},
+	"keywords": [ "BuckleScript" ],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@glennsl/bs-jest": "^0.6.0",
+		"bs-platform": "^8.3.3",
+		"jest": "^26.6.3"
+	},
+	"dependencies": {}
+}

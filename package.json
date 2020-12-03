@@ -1,0 +1,25 @@
+{
+	"name": "learn-type-driven-development",
+	"version": "1.0.0",
+	"description": "<a href=\"https://www.packtpub.com/application-development/learn-type-driven-development?utm_source=github&utm_medium=repository&utm_campaign=9781788838016 \"><img src=\"https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B09613_MockupCover.png\" alt=\"Learn Type Driven Development\" height=\"256px\" align=\"right\"></a>",
+	"main": "index.js",
+	"scripts": {
+		"clean": "bsb -clean-world",
+		"watch": "BS_WATCH_CLEAR=true bsb -make-world -w",
+		"re:formatall": "find src __tests__ -name '*.re' | xargs npx bsrefmt --in-place",
+		"re:formatchanged": "git diff --name-only --diff-filter=d HEAD -- '*.re' | xargs -I{} realpath --relative-to=. $(git rev-parse --show-toplevel)/'{}' | while read f; do npx bsrefmt --in-place \"$f\"; done",
+		"prepare": "mkdir -p .git/hooks && cp .pre-commit-hook .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit",
+		"test": "jest __tests__",
+		"test:watch": "jest __tests__ --watch"
+	},
+	"lint-staged": {
+		"*.{re,rei}": "bsrefmt --in-place",
+		"*.{js,json}": "prettier --write"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"bs-platform": "^8.3.3"
+	}
+}
